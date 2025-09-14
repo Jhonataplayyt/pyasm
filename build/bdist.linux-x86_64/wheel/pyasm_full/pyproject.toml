@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyasm"
+version = "0.0.1"
+description = "A library for low-level abstracted to high-level use."
+
+license = { text = "MIT" }
+authors = [
+    { name = "Jhonata Rios Carneiro", email = "jhonatacarneirorios432@gmail.com" }
+]
+dependencies = [
+]
+requires-python = ">=3.8"

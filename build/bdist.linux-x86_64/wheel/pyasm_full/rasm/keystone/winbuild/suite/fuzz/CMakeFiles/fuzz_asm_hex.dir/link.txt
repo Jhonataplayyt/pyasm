@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/fuzz_asm_hex.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/fuzz_asm_hex.dir/objects.a @CMakeFiles/fuzz_asm_hex.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc -g -Wl,--whole-archive CMakeFiles/fuzz_asm_hex.dir/objects.a -Wl,--no-whole-archive -o fuzz_asm_hex.exe -Wl,--out-implib,libfuzz_asm_hex.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/fuzz_asm_hex.dir/linkLibs.rsp

@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: pyasm
+Version: 0.0.1
+Summary: A library for low-level abstracted to high-level use.
+Author-email: Jhonata Rios Carneiro <jhonatacarneirorios432@gmail.com>
+License: MIT
+Requires-Python: >=3.8
