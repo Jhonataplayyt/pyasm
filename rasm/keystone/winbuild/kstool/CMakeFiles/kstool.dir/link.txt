@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/kstool.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/kstool.dir/objects.a @CMakeFiles/kstool.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -g -Wl,--whole-archive CMakeFiles/kstool.dir/objects.a -Wl,--no-whole-archive -o kstool.exe -Wl,--out-implib,libkstool.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/kstool.dir/linkLibs.rsp

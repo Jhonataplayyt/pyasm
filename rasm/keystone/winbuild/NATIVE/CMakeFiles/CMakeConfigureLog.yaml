@@ -1,0 +1,155 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.8.0-1030-azure - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        /workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/3.28.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        /workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/3.28.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-V8nXAG"
+      binary: "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-V8nXAG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-V8nXAG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ad9c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ad9c.dir/build.make CMakeFiles/cmTC_1ad9c.dir/build
+        gmake[1]: Entering directory '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-V8nXAG'
+        Building C object CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o
+        /usr/bin/x86_64-w64-mingw32-gcc   -v -o CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        Target: x86_64-w64-mingw32
+        Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13-win32 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad9c.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/13-win32/cc1 -quiet -v -U_REENTRANT /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1ad9c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cci9MZHP.s
+        GNU C17 (GCC) version 13-win32 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/sys-include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include
+         /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include-fixed
+         /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2f238ebf931cb75a735d1d63553d9825
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad9c.dir/'
+         /usr/bin/x86_64-w64-mingw32-as -v -o CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o /tmp/cci9MZHP.s
+        GNU assembler version 2.41.90 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41.90.20240122
+        COMPILER_PATH=/usr/lib/gcc/x86_64-w64-mingw32/13-win32/:/usr/lib/gcc/x86_64-w64-mingw32/13-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/13-win32/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/13-win32/:/usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_1ad9c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ad9c.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-gcc  -v -rdynamic CMakeFiles/cmTC_1ad9c.dir/CMakeCCompilerABI.c.o -o cmTC_1ad9c 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-w64-mingw32/13-win32/lto-wrapper
+        x86_64-w64-mingw32-gcc: error: unrecognized command-line option '-rdynamic'
+        Target: x86_64-w64-mingw32
+        Configured with: ../../src/configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/include' --mandir='/usr/share/man' --infodir='/usr/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --prefix=/usr --enable-shared --enable-static --disable-multilib --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --libdir=/usr/lib --enable-libstdcxx-time=yes --with-tune=generic --with-headers --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libgomp --enable-languages=c,c++,fortran,objc,obj-c++,ada --enable-lto --enable-threads=win32 --program-suffix=-win32 --program-prefix=x86_64-w64-mingw32- --target=x86_64-w64-mingw32 --with-as=/usr/bin/x86_64-w64-mingw32-as --with-ld=/usr/bin/x86_64-w64-mingw32-ld --enable-libatomic --enable-libstdcxx-filesystem-ts=yes --enable-dependency-tracking SED=/bin/sed
+        Thread model: win32
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13-win32 (GCC) 
+        gmake[1]: *** [CMakeFiles/cmTC_1ad9c.dir/build.make:99: cmTC_1ad9c] Error 1
+        gmake[1]: Leaving directory '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-V8nXAG'
+        gmake: *** [Makefile:127: cmTC_1ad9c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/x86_64-w64-mingw32-gcc"
+    directories:
+      source: "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL"
+      binary: "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e60d1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e60d1.dir/build.make CMakeFiles/cmTC_e60d1.dir/build
+        gmake[1]: Entering directory '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL'
+        Building C object CMakeFiles/cmTC_e60d1.dir/testCCompiler.c.o
+        /usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_e60d1.dir/testCCompiler.c.o -c /workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL/testCCompiler.c
+        Linking C executable cmTC_e60d1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e60d1.dir/link.txt --verbose=1
+        /usr/bin/x86_64-w64-mingw32-gcc -rdynamic CMakeFiles/cmTC_e60d1.dir/testCCompiler.c.o -o cmTC_e60d1 
+        x86_64-w64-mingw32-gcc: error: unrecognized command-line option ‘-rdynamic’
+        gmake[1]: *** [CMakeFiles/cmTC_e60d1.dir/build.make:99: cmTC_e60d1] Error 1
+        gmake[1]: Leaving directory '/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/NATIVE/CMakeFiles/CMakeScratch/TryCompile-lLAJtL'
+        gmake: *** [Makefile:127: cmTC_e60d1/fast] Error 2
+        
+      exitCode: 2
+...
