@@ -279,7 +279,7 @@ struct index_sequence_for : build_index_impl<sizeof...(Ts)> {};
 
 /// Find the length of an array.
 template <class T, std::size_t N>
-LLVM_CONSTEXPR inline size_t array_lengthof(T (&)[N]) {
+constexpr inline size_t array_lengthof(T (&)[N]) noexcept {
   return N;
 }
 

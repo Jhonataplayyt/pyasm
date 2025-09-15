@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Support/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/include/llvm/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/MC/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/AArch64/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/ARM/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/Hexagon/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/Mips/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/PowerPC/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/Sparc/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/SystemZ/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/X86/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Target/RISCV/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/keystone/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/cmake/modules/cmake_install.cmake",
+		"C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/suite/fuzz/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

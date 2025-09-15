@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/kstool.dir/kstool.cpp.o -o kstool  ../llvm/lib/libkeystone.a 

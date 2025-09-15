@@ -1,8 +1,8 @@
-# Install script for directory: /workspaces/codespaces-blank/pyasm/rasm/keystone/llvm
+# Install script for directory: C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/keystone")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -29,25 +29,26 @@ endif()
 
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "TRUE")
-endif()
-
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/x86_64-w64-mingw32-objdump")
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/workspaces/codespaces-blank/pyasm/rasm/keystone/llvm/../include/keystone")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm/../include/keystone")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/lib/Support/cmake_install.cmake")
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/include/llvm/cmake_install.cmake")
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/lib/cmake_install.cmake")
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/keystone/cmake_install.cmake")
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/cmake/modules/cmake_install.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/Support/cmake_install.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/include/llvm/cmake_install.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/lib/cmake_install.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/keystone/cmake_install.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/cmake/modules/cmake_install.cmake")
 
 endif()
 
+string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+if(CMAKE_INSTALL_LOCAL_ONLY)
+  file(WRITE "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/install_local_manifest.txt"
+     "${CMAKE_INSTALL_MANIFEST_CONTENT}")
+endif()

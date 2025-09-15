@@ -1,7 +1,7 @@
 # Keystone Assembler Engine (www.keystone-engine.org)
 # By Nguyen Anh Quynh, 2016
 
-cmake_minimum_required(VERSION 2.8.7)
+cmake_minimum_required(VERSION 3.5)
 project(keystone)
 
 set(KEYSTONE_VERSION_MAJOR 0)
@@ -25,7 +25,7 @@ if (POLICY CMP0051)
   # stripped everywhere that access the SOURCES property, so we just
   # defer to the OLD behavior of not including generator expressions
   # in the output for now.
-  cmake_policy(SET CMP0051 OLD)
+  cmake_policy(SET CMP0051 NEW)
 endif()
 
 if (POLICY CMP0063)
@@ -78,9 +78,10 @@ if (NOT BUILD_LIBS_ONLY AND NOT BUILD_SHARED_LIBS)
     add_subdirectory(kstool)
 endif()
 else()
-if (NOT BUILD_LIBS_ONLY)
-    add_subdirectory(kstool)
-endif()
+  set(BUILD_LIBS_ONLY ON)
+#if (NOT BUILD_LIBS_ONLY)
+#    add_subdirectory(kstool)
+#endif()
 endif()
 
 # generate and install pkg-config.pc

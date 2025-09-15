@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyasm"
-version = "0.0.1"
+version = "0.0.4"
 description = "A library for low-level abstract use to high-level."
 authors = ["Jhonata Rios Carneiro <jhonatacarneirorios432@gmail.com>"]
 license = "MIT"
@@ -17,9 +17,6 @@ repository = "https://github.com/Jhonataplayyt/pyasm"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-
-[tool.poetry.scripts]
-pyasm = "pyasm.main:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/fuzz_asm_arm_armbe.dir/onefile.c.o CMakeFiles/fuzz_asm_arm_armbe.dir/fuzz_asm_arm_armbe.c.o -o fuzz_asm_arm_armbe  ../../llvm/lib/libkeystone.a 

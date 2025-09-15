@@ -1,3 +1,0 @@
-/usr/bin/cmake -E rm -f CMakeFiles/keystone.dir/objects.a
-/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/keystone.dir/objects.a @CMakeFiles/keystone.dir/objects1.rsp
-/usr/bin/x86_64-w64-mingw32-g++  -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -std=gnu++11 -g -shared -o ../bin/libkeystone.dll -Wl,--out-implib,../lib/libkeystone.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/keystone.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/keystone.dir/linkLibs.rsp

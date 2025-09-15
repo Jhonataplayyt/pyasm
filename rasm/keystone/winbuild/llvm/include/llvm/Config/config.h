@@ -32,10 +32,10 @@
 #undef HAVE_BCOPY
 
 /* Define to 1 if you have the `closedir' function. */
-#define HAVE_CLOSEDIR 1
+/* #undef HAVE_CLOSEDIR */
 
 /* Define to 1 if you have the <cxxabi.h> header file. */
-#define HAVE_CXXABI_H 1
+/* #undef HAVE_CXXABI_H */
 
 /* Define to 1 if you have the <CrashReporterClient.h> header file. */
 #undef HAVE_CRASHREPORTERCLIENT_H
@@ -48,11 +48,11 @@
 #define HAVE_DECL_STRERROR_S 1
 
 /* Define to 1 if you have the DIA SDK installed, and to 0 if you don't. */
-/* #undef HAVE_DIA_SDK */
+#define HAVE_DIA_SDK 1
 
 /* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
    */
-#define HAVE_DIRENT_H 1
+/* #undef HAVE_DIRENT_H */
 
 /* Define if you have the GNU dld library. */
 #undef HAVE_DLD
@@ -97,7 +97,7 @@
 /* #undef HAVE_FUTIMENS */
 
 /* Define to 1 if you have the `getcwd' function. */
-#define HAVE_GETCWD 1
+/* #undef HAVE_GETCWD */
 
 /* Define to 1 if you have the `getpagesize' function. */
 /* #undef HAVE_GETPAGESIZE */
@@ -109,7 +109,7 @@
 /* #undef HAVE_GETRUSAGE */
 
 /* Define to 1 if you have the `gettimeofday' function. */
-#define HAVE_GETTIMEOFDAY 1
+/* #undef HAVE_GETTIMEOFDAY */
 
 /* Define to 1 if the system has the type `int64_t'. */
 #define HAVE_INT64_T 1
@@ -118,7 +118,7 @@
 #define HAVE_INTTYPES_H 1
 
 /* Define to 1 if you have the `isatty' function. */
-#define HAVE_ISATTY 1
+/* #undef HAVE_ISATTY */
 
 /* Define if you have the libdl library or equivalent. */
 /* #undef HAVE_LIBDL */
@@ -130,13 +130,13 @@
 #undef HAVE_LIBOLE32
 
 /* Define to 1 if you have the `psapi' library (-lpsapi). */
-#define HAVE_LIBPSAPI 1
+/* #undef HAVE_LIBPSAPI */
 
 /* Define to 1 if you have the `pthread' library (-lpthread). */
 /* #undef HAVE_LIBPTHREAD */
 
 /* Define to 1 if you have the `shell32' library (-lshell32). */
-#define HAVE_LIBSHELL32 1
+/* #undef HAVE_LIBSHELL32 */
 
 /* Define to 1 if you have the 'z' library (-lz). */
 /* #undef HAVE_LIBZ */
@@ -185,10 +185,10 @@
 /* #undef HAVE_MKDTEMP */
 
 /* Define to 1 if you have the `mkstemp' function. */
-#define HAVE_MKSTEMP 1
+/* #undef HAVE_MKSTEMP */
 
 /* Define to 1 if you have the `mktemp' function. */
-#define HAVE_MKTEMP 1
+/* #undef HAVE_MKTEMP */
 
 /* Define to 1 if you have a working `mmap' system call. */
 #undef HAVE_MMAP
@@ -204,7 +204,7 @@
 /* #undef HAVE_NDIR_H */
 
 /* Define to 1 if you have the `opendir' function. */
-#define HAVE_OPENDIR 1
+/* #undef HAVE_OPENDIR */
 
 /* Define to 1 if you have the `posix_spawn' function. */
 /* #undef HAVE_POSIX_SPAWN */
@@ -234,7 +234,7 @@
 /* #undef HAVE_RAND48 */
 
 /* Define to 1 if you have the `readdir' function. */
-#define HAVE_READDIR 1
+/* #undef HAVE_READDIR */
 
 /* Define to 1 if you have the `realpath' function. */
 /* #undef HAVE_REALPATH */
@@ -305,7 +305,7 @@
 /* #undef HAVE_SYS_NDIR_H */
 
 /* Define to 1 if you have the <sys/param.h> header file. */
-#define HAVE_SYS_PARAM_H 1
+/* #undef HAVE_SYS_PARAM_H */
 
 /* Define to 1 if you have the <sys/resource.h> header file. */
 /* #undef HAVE_SYS_RESOURCE_H */
@@ -314,7 +314,7 @@
 #define HAVE_SYS_STAT_H 1
 
 /* Define to 1 if you have the <sys/time.h> header file. */
-#define HAVE_SYS_TIME_H 1
+/* #undef HAVE_SYS_TIME_H */
 
 /* Define to 1 if you have the <sys/types.h> header file. */
 /* #undef HAVE_SYS_TYPES_H */
@@ -332,10 +332,10 @@
 #define HAVE_UINT64_T 1
 
 /* Define to 1 if you have the <unistd.h> header file. */
-#define HAVE_UNISTD_H 1
+/* #undef HAVE_UNISTD_H */
 
 /* Define to 1 if you have the <utime.h> header file. */
-#define HAVE_UTIME_H 1
+/* #undef HAVE_UTIME_H */
 
 /* Define to 1 if the system has the type `u_int64_t'. */
 /* #undef HAVE_U_INT64_T */
@@ -353,7 +353,7 @@
 /* #undef HAVE__ALLOCA */
 
 /* Have host's __alloca */
-#define HAVE___ALLOCA 1
+/* #undef HAVE___ALLOCA */
 
 /* Have host's __ashldi3 */
 /* #undef HAVE___ASHLDI3 */
@@ -362,7 +362,7 @@
 /* #undef HAVE___ASHRDI3 */
 
 /* Have host's __chkstk */
-/* #undef HAVE___CHKSTK */
+#define HAVE___CHKSTK 1
 
 /* Have host's __chkstk_ms */
 /* #undef HAVE___CHKSTK_MS */
@@ -389,7 +389,7 @@
 /* #undef HAVE___LSHRDI3 */
 
 /* Have host's __main */
-#define HAVE___MAIN 1
+/* #undef HAVE___MAIN */
 
 /* Have host's __moddi3 */
 /* #undef HAVE___MODDI3 */
@@ -401,10 +401,10 @@
 /* #undef HAVE___UMODDI3 */
 
 /* Have host's ___chkstk */
-#define HAVE____CHKSTK 1
+/* #undef HAVE____CHKSTK */
 
 /* Have host's ___chkstk_ms */
-#define HAVE____CHKSTK_MS 1
+/* #undef HAVE____CHKSTK_MS */
 
 /* Linker version detected at compile time. */
 #undef HOST_LINK_VERSION
@@ -421,14 +421,14 @@
 /* Target triple LLVM will generate code for by default
  * Doesn't use `cmakedefine` because it is allowed to be empty.
  */
-#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-w64-mingw32"
+#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-pc-win32"
 
 /* Installation directory for documentation */
 /* #undef LLVM_DOCSDIR */
 
 /* Define if LLVM is built with asserts and checks that change the layout of
    client-visible data structures.  */
-#define LLVM_ENABLE_ABI_BREAKING_CHECKS
+/* #undef LLVM_ENABLE_ABI_BREAKING_CHECKS */
 
 /* Define if threads enabled */
 #define LLVM_ENABLE_THREADS 1
@@ -443,7 +443,7 @@
 #define LLVM_HAS_ATOMICS 1
 
 /* Host triple LLVM will be executed on */
-#define LLVM_HOST_TRIPLE "x86_64-w64-mingw32"
+#define LLVM_HOST_TRIPLE "x86_64-pc-win32"
 
 /* Installation directory for include files */
 /* #undef LLVM_INCLUDEDIR */
@@ -482,7 +482,7 @@
 #define LLVM_ON_WIN32 1
 
 /* Installation prefix directory */
-#define LLVM_PREFIX "/usr/local"
+#define LLVM_PREFIX "C:/Program Files (x86)/keystone"
 
 /* Define if we have the Intel JIT API runtime support library */
 /* #undef LLVM_USE_INTEL_JITEVENTS */
@@ -571,10 +571,10 @@
 /* #undef strtoull */
 
 /* Define to a function implementing stricmp */
-/* #undef stricmp */
+#define stricmp _stricmp
 
 /* Define to a function implementing strdup */
-/* #undef strdup */
+#define strdup _strdup
 
 /* Define to 1 if you have the `_chsize_s' function. */
 #define HAVE__CHSIZE_S 1

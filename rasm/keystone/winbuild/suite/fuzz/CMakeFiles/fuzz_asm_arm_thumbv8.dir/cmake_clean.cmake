@@ -4,8 +4,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/fuzz_asm_arm_thumbv8.dir/onefile.c.obj"
   "CMakeFiles/fuzz_asm_arm_thumbv8.dir/onefile.c.obj.d"
   "fuzz_asm_arm_thumbv8.exe"
+  "fuzz_asm_arm_thumbv8.exe.manifest"
+  "fuzz_asm_arm_thumbv8.lib"
   "fuzz_asm_arm_thumbv8.pdb"
-  "libfuzz_asm_arm_thumbv8.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

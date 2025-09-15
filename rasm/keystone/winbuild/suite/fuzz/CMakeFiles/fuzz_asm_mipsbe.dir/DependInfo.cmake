@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/codespaces-blank/pyasm/rasm/keystone/suite/fuzz/fuzz_asm_mipsbe.c" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/fuzz_asm_mipsbe.c.obj" "gcc" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/fuzz_asm_mipsbe.c.obj.d"
-  "/workspaces/codespaces-blank/pyasm/rasm/keystone/suite/fuzz/onefile.c" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/onefile.c.obj" "gcc" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/onefile.c.obj.d"
+  "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/suite/fuzz/fuzz_asm_mipsbe.c" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/fuzz_asm_mipsbe.c.obj" "msvc" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/fuzz_asm_mipsbe.c.obj.d"
+  "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/suite/fuzz/onefile.c" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/onefile.c.obj" "msvc" "suite/fuzz/CMakeFiles/fuzz_asm_mipsbe.dir/onefile.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

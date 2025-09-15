@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/fuzz_asm_sparc64be.dir/onefile.c.o CMakeFiles/fuzz_asm_sparc64be.dir/fuzz_asm_sparc64be.c.o -o fuzz_asm_sparc64be  ../../llvm/lib/libkeystone.a 

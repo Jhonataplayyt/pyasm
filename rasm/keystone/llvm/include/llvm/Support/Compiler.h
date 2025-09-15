@@ -49,6 +49,9 @@
 # endif
 #endif
 
+#undef LLVM_CONSTEXPR
+#define LLVM_CONSTEXPR constexpr
+
 /// \macro LLVM_MSC_PREREQ
 /// \brief Is the compiler MSVC of at least the specified version?
 /// The common \param version values to check for are:

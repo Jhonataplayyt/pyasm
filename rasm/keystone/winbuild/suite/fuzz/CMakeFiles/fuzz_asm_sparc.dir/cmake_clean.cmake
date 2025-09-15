@@ -4,8 +4,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/fuzz_asm_sparc.dir/onefile.c.obj"
   "CMakeFiles/fuzz_asm_sparc.dir/onefile.c.obj.d"
   "fuzz_asm_sparc.exe"
+  "fuzz_asm_sparc.exe.manifest"
+  "fuzz_asm_sparc.lib"
   "fuzz_asm_sparc.pdb"
-  "libfuzz_asm_sparc.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

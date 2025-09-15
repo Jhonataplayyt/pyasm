@@ -2,10 +2,10 @@
 
 
 # LLVM_BUILD_* values available only from LLVM build tree.
-set(LLVM_BUILD_BINARY_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm")
-set(LLVM_BUILD_LIBRARY_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/./lib")
-set(LLVM_BUILD_MAIN_INCLUDE_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/llvm/include")
-set(LLVM_BUILD_MAIN_SRC_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/llvm")
+set(LLVM_BUILD_BINARY_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm")
+set(LLVM_BUILD_LIBRARY_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/./lib")
+set(LLVM_BUILD_MAIN_INCLUDE_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm/include")
+set(LLVM_BUILD_MAIN_SRC_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm")
 
 
 set(LLVM_VERSION_MAJOR 3)
@@ -25,11 +25,11 @@ set(LLVM_TARGETS_WITH_JIT )
 
 
 
-set(TARGET_TRIPLE "x86_64-w64-mingw32")
+set(TARGET_TRIPLE "x86_64-pc-win32")
 
 set(LLVM_ABI_BREAKING_CHECKS WITH_ASSERTS)
 
-set(LLVM_ENABLE_ASSERTIONS ON)
+set(LLVM_ENABLE_ASSERTIONS OFF)
 
 set(LLVM_ENABLE_EH OFF)
 
@@ -53,14 +53,14 @@ set(LLVM_ON_WIN32 1)
 
 set(LLVM_LIBDIR_SUFFIX )
 
-set(LLVM_INCLUDE_DIRS "/workspaces/codespaces-blank/pyasm/rasm/keystone/llvm/include;/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/include")
-set(LLVM_LIBRARY_DIRS "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/./lib")
-set(LLVM_DEFINITIONS "-D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS")
-set(LLVM_CMAKE_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/llvm/cmake/modules")
-set(LLVM_TOOLS_BINARY_DIR "/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/./bin")
+set(LLVM_INCLUDE_DIRS "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm/include;C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/include")
+set(LLVM_LIBRARY_DIRS "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/./lib")
+set(LLVM_DEFINITIONS "-D_CRT_SECURE_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_NONSTDC_NO_WARNINGS -D_SCL_SECURE_NO_DEPRECATE -D_SCL_SECURE_NO_WARNINGS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS")
+set(LLVM_CMAKE_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/llvm/cmake/modules")
+set(LLVM_TOOLS_BINARY_DIR "C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/./bin")
 
 if(NOT TARGET LLVMSupport)
-  include("/workspaces/codespaces-blank/pyasm/rasm/keystone/winbuild/llvm/share/llvm/cmake/LLVMExports.cmake")
+  include("C:/Users/tempe/Desktop/PythonProj/pyasm/rasm/keystone/winbuild/llvm/share/llvm/cmake/LLVMExports.cmake")
 endif()
 
 include(${LLVM_CMAKE_DIR}/LLVM-Config.cmake)

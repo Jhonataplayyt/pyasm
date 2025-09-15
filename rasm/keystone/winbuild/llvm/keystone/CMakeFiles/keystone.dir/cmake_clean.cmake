@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "../bin/libkeystone.dll"
-  "../bin/libkeystone.pdb"
-  "../lib/libkeystone.dll.a"
+  "../bin/keystone.dll"
+  "../bin/keystone.dll.manifest"
+  "../bin/keystone.pdb"
+  "../lib/keystone.lib"
   "CMakeFiles/keystone.dir/EVMMapping.cpp.obj"
   "CMakeFiles/keystone.dir/EVMMapping.cpp.obj.d"
   "CMakeFiles/keystone.dir/__/lib/MC/ConstantPools.cpp.obj"

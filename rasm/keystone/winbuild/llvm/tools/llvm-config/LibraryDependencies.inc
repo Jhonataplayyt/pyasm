@@ -20,7 +20,7 @@ struct AvailableComponent {
   const char *RequiredLibraries[10];
 } AvailableComponents[14] = {
   { "aarch64", nullptr, true, {  } },
-  { "all", nullptr, true, { "target", "native", "all-targets", "engine" } },
+  { "all", nullptr, true, { "native", "engine", "target", "all-targets" } },
   { "all-targets", nullptr, true, { "aarch64", "arm", "hexagon", "mips", "powerpc", "sparc", "systemz", "x86", "riscv" } },
   { "arm", nullptr, true, {  } },
   { "engine", nullptr, true, {  } },

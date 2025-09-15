@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/fuzz_asm_mipsbe.dir/onefile.c.o CMakeFiles/fuzz_asm_mipsbe.dir/fuzz_asm_mipsbe.c.o -o fuzz_asm_mipsbe  ../../llvm/lib/libkeystone.a 

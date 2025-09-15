@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/fuzz_asm_systemz.dir/onefile.c.o CMakeFiles/fuzz_asm_systemz.dir/fuzz_asm_systemz.c.o -o fuzz_asm_systemz  ../../llvm/lib/libkeystone.a 

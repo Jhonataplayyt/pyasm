@@ -24,14 +24,14 @@
 /* #undef LLVM_DATADIR */
 
 /* Target triple LLVM will generate code for by default */
-#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-w64-mingw32"
+#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-pc-win32"
 
 /* Installation directory for documentation */
 /* #undef LLVM_DOCSDIR */
 
 /* Define if LLVM is built with asserts and checks that change the layout of
    client-visible data structures.  */
-#define LLVM_ENABLE_ABI_BREAKING_CHECKS
+/* #undef LLVM_ENABLE_ABI_BREAKING_CHECKS */
 
 /* Define if threads enabled */
 #define LLVM_ENABLE_THREADS 1
@@ -43,7 +43,7 @@
 #define LLVM_HAS_ATOMICS 1
 
 /* Host triple LLVM will be executed on */
-#define LLVM_HOST_TRIPLE "x86_64-w64-mingw32"
+#define LLVM_HOST_TRIPLE "x86_64-pc-win32"
 
 /* Installation directory for include files */
 /* #undef LLVM_INCLUDEDIR */
@@ -82,7 +82,7 @@
 #define LLVM_ON_WIN32 1
 
 /* Installation prefix directory */
-#define LLVM_PREFIX "/usr/local"
+#define LLVM_PREFIX "C:/Program Files (x86)/keystone"
 
 /* Define if we have the Intel JIT API runtime support library */
 /* #undef LLVM_USE_INTEL_JITEVENTS */
